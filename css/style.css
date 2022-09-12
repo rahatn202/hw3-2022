@@ -84,8 +84,8 @@ we can add border width: 3px, 10px
     margin-left: 50px;
     border-style: solid;
   
-    border-top: #ffffff 2px;
-    border-right: #ffffff 5px;
+    border-bottom: #ffffff 2px;
+    border-left: #ffffff 5px;
    /* border-width: 3px, 10px;*/
    
    
@@ -105,8 +105,8 @@ e.	The heading and paragraph text should use #C4C4C4*/
     text-align: left;
     margin-right: 50px;
     border-style: solid;
-    border-bottom:  #ffffff 2px;
-    border-left: #ffffff 5px;
+    border-top:  #ffffff 2px;
+    border-right: #ffffff 5px;
 }
 
 .blue h2{
@@ -122,7 +122,7 @@ d.	A border of 2px on the bottom and 5px on the left;
 
 WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
 e.	The paragraph text should be #707070.  (Updated 7/7)*/
-div.yellow{
+.yellow{
     background-color: #ffff00;
     color: #707070;
     text-align: right;
@@ -130,8 +130,8 @@ div.yellow{
     border-style: solid;
     
     border-style: solid;
-    border-top: #ffffff 2px;
-    border-right: #ffffff 5px;
+    border-bottm: #ffffff 2px;
+    border-left: #ffffff 5px;
     
     
 
@@ -152,8 +152,8 @@ d.	A  border of 5px on the right and 2px on the top;*/
     text-align: left;
     margin-right: 50px;
     border-style: solid;
-    border-bottom: #ffffff 2px;
-    border-left: #ffffff 5px;
+    border-top: #ffffff 2px;
+    border-right: #ffffff 5px;
     
 }
 
@@ -162,18 +162,22 @@ e.	a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff
 f.	A 5px solid white border.*/
 footer{
     background: linear-gradient(.25turn, #000000, #0000ff, #0066ff,#000000 );
-    font-size: 20px;
+    
     text-align: right;
-    padding-top: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
+    
     border: solid 5px;
 }
+
 /*14.	Style any paragraphs with the footer with:
 a.	20px text that is aligned to the right.
 b.	Padding of 15px on the top, right, and bottom only. (No padding on the left.)*/
 
-
+footer p {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px
+}
 
 
 
