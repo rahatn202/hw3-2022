@@ -154,9 +154,9 @@ d.	A  border of 5px on the right and 2px on the top;*/
     
     text-align: left;
     margin-right: 50px;
-    border-style: solid;
-    border-bottom: #ffffff 2px;
-    border-left: #ffffff 5px;
+   
+    border-bottom:solid #ffffff 2px;
+    border-left: solid #ffffff 5px;
     border-top: 0px;
     border-top: 0px;
     
@@ -181,6 +181,7 @@ footer p {
     padding-top: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
+    padding-left: 0px:
 }
 
 
